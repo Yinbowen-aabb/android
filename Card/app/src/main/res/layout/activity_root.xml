@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".activity.RootActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/guanliyuanbiaoti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="库存管理"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:textColor="#00B7FF"/>
+
+    <ListView
+        android:id="@+id/kucunliebiao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/rootloginback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回"/>
+
+
+
+</LinearLayout>
+</LinearLayout>
